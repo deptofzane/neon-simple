@@ -55,7 +55,8 @@ body {
     padding: 0rem 1rem;
     max-width: calc(100vw - 2rem);
     display: flex;
-    height: 100svh;
+    min-height: 100svh;
+    height: auto;
     flex-direction: column;
     justify-content: flex-start;
   }
