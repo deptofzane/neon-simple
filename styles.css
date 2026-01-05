@@ -50,6 +50,11 @@ body {
   height: 3.5rem;
 }
 
+.music-link:hover {
+  opacity: 0.6;
+  transition-duration: 0.25s;
+}
+
 @media (max-width: 720px) {
   .main-container {
     padding: 0rem 1rem;
