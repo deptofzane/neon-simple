@@ -4,7 +4,8 @@ body {
 
 .main-container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100svh;
+  height: auto;
   background-color: #2A0E07;
   display: flex;
   flex-direction: column;
@@ -38,6 +39,7 @@ body {
   align-items: center;
   gap: 20px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .instagram-icon {
@@ -59,10 +61,6 @@ body {
   .main-container {
     padding: 0rem 1rem;
     max-width: calc(100vw - 2rem);
-    display: flex;
-    min-height: 100svh;
-    height: auto;
-    flex-direction: column;
     justify-content: flex-start;
   }
 
